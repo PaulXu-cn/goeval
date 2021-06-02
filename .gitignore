@@ -4,6 +4,8 @@
 *.dll
 *.so
 *.dylib
+*.log
+.DS_Store
 
 # Test binary, built with `go test -c`
 *.test
@@ -12,4 +14,6 @@
 *.out
 
 # Dependency directories (remove the comment below to include it)
-# vendor/
+vendor/
+
+.idea/
