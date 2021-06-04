@@ -14,14 +14,21 @@ $ go get github.com/PaulXu-cn/goeval
 package main
 
 import (
-	"fmt"
-	"github.com/PaulXu-cn/goeval"
+    "fmt"
+    goeval "github.com/PaulXu-cn/goeval"
+)
 
-func main () {
-	fmt.Print(string(goevel.Eval("", "fmt.Print(\"Hello World!\")")))
+func main() {
+    if re, err := goeval.Eval("", "fmt.Print(\"Hello World!\")", "fmt"); nil == err {
+        fmt.Print(string(re))
+    } else {
+        fmt.Print(err.Error())
+    }
 }
 ```
 
 ```
 Hello World!
 ```
+
+It's sample !
