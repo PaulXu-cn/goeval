@@ -15,7 +15,7 @@ package main
 
 import (
     "fmt"
-    goeval "github.com/PaulXu-cn/goeval"
+    "github.com/PaulXu-cn/goeval"
 )
 
 func main() {
@@ -31,4 +31,4 @@ func main() {
 Hello World!
 ```
 
-It's sample !
+It's simple! Try it.

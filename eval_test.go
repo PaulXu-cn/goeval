@@ -1,4 +1,4 @@
-package goevel
+package goeval
 
 import (
 	"reflect"
