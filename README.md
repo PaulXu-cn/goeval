@@ -20,9 +20,9 @@ import (
 
 func main() {
     if re, err := goeval.Eval("", "fmt.Print(\"Hello World!\")", "fmt"); nil == err {
-        fmt.Print(string(re))
+        fmt.Println(string(re))
     } else {
-        fmt.Print(err.Error())
+        fmt.Println(err.Error())
     }
 }
 ```
